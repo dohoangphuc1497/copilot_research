@@ -20,3 +20,9 @@ function addTodo() {
         todoInput.value = "";
     }
 }
+
+function clearTodos() {
+    console.log("Clear todos...");
+    todoList.innerHTML = "";
+    localStorage.removeItem("todo");
+}   

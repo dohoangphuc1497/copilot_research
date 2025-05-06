@@ -38,6 +38,7 @@ button {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    margin-right: 5px; /* Add spacing between buttons */
 }
 
 button:hover {
